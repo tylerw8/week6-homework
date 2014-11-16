@@ -1,0 +1,147 @@
+/*Tyler Waite button styles week 6
+/*  View example button styles here: http://hellohappy.org/css3-buttons/ 
+    Then view their code here:  https://github.com/ubuwaits/css3-buttons
+    Pick two that you like, and copy the css code from repo to style the two buttons on index.html. */
+
+/* thoughtbot (inspired by thoughtbot.com)
+*******************************************************************************/
+#sign-in{
+background-color: #ee432e;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ee432e), color-stop(50%, #c63929), color-stop(50%, #b51700), color-stop(100%, #891100));
+background-image: -webkit-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+background-image: -moz-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+background-image: -ms-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+background-image: -o-linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+background-image: linear-gradient(top, #ee432e 0%, #c63929 50%, #b51700 50%, #891100 100%);
+border: 1px solid #951100;
+border-radius: 5px;
+-webkit-box-shadow: inset 0 0 0 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
+box-shadow: inset 0 0 0 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
+color: #fff;
+font: bold 20px/1 "helvetica neue", helvetica, arial, sans-serif;
+padding: 12px 0 14px 0;
+text-align: center;
+text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.8);
+width: 150px;
+margin: 2rem;}
+
+/*thoughtbot hover*/
+#sign-in:hover {
+background-color: #f37873;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f37873), color-stop(50%, #db504d), color-stop(50%, #cb0500), color-stop(100%, #a20601));
+background-image: -webkit-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+background-image: -moz-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+background-image: -ms-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+background-image: -o-linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+background-image: linear-gradient(top, #f37873 0%, #db504d 50%, #cb0500 50%, #a20601 100%);
+cursor: pointer; }
+
+/*thoughtbot active*/
+#sign-in:active {
+background-color: #d43c28;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d43c28), color-stop(50%, #ad3224), color-stop(50%, #9c1500), color-stop(100%, #700d00));
+background-image: -webkit-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+background-image: -moz-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+background-image: -ms-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+background-image: -o-linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+background-image: linear-gradient(top, #d43c28 0%, #ad3224 50%, #9c1500 50%, #700d00 100%);
+-webkit-box-shadow: inset 0 0 0 1px rgba(255, 115, 100, 0.4);
+box-shadow: inset 0 0 0 1px rgba(255, 115, 100, 0.4); }
+
+/* blue pill (inspired by iTunes)
+*******************************************************************************/
+#sign-up{
+  background-color: #a5b8da;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a5b8da), color-stop(100%, #7089b3));
+  background-image: -webkit-linear-gradient(top, #a5b8da, #7089b3);
+  background-image: -moz-linear-gradient(top, #a5b8da, #7089b3);
+  background-image: -ms-linear-gradient(top, #a5b8da, #7089b3);
+  background-image: -o-linear-gradient(top, #a5b8da, #7089b3);
+  background-image: linear-gradient(top, #a5b8da, #7089b3);
+  border-top: 1px solid #758fba;
+  border-right: 1px solid #6c84ab;
+  border-bottom: 1px solid #5c6f91;
+  border-left: 1px solid #6c84ab;
+  border-radius: 18px;
+  -webkit-box-shadow: inset 0 1px 0 0 #aec3e5;
+  box-shadow: inset 0 1px 0 0 #aec3e5;
+  color: #fff;
+  font: bold 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  padding: 8px 0;
+  text-align: center;
+  text-shadow: 0 -1px 1px #64799e;
+  text-transform: uppercase;
+  width: 150px; 
+  margin: 2rem;}
+
+/*  blue-pill hover*/
+#sign-up:hover {
+    background-color: #9badcc;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9badcc), color-stop(100%, #687fa6));
+    background-image: -webkit-linear-gradient(top, #9badcc, #687fa6);
+    background-image: -moz-linear-gradient(top, #9badcc, #687fa6);
+    background-image: -ms-linear-gradient(top, #9badcc, #687fa6);
+    background-image: -o-linear-gradient(top, #9badcc, #687fa6);
+    background-image: linear-gradient(top, #9badcc, #687fa6);
+    border-top: 1px solid #6d86ad;
+    border-right: 1px solid #647a9e;
+    border-bottom: 1px solid #546685;
+    border-left: 1px solid #647a9e;
+    -webkit-box-shadow: inset 0 1px 0 0 #a5b9d9;
+    box-shadow: inset 0 1px 0 0 #a5b9d9;
+    cursor: pointer; }
+
+/*  blue-pill active*/
+#sign-up:active {
+    border: 1px solid #546685;
+    -webkit-box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eeeeee;
+    box-shadow: inset 0 0 8px 2px #7e8da6, 0 1px 0 0 #eeeeee; }
+
+/* Extra credit button style based on thoughtbot
+*******************************************************************************/
+#groovy{
+background-color: blue;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(90%, brown), color-stop(70%, yellow), color-stop(50%, orange), color-stop(30%, red), color-stop(0%, blue));
+background-image: -webkit-linear-gradient(top, blue 0%, red 30%, orange 50%, yellow 70%, brown 90%);
+background-image: -moz-linear-gradient(top, blue 0%, red 30%, orange 50%, yellow 70%, brown 90%);
+background-image: -ms-linear-gradient(top, blue 0%, red 30%, orange 50%, yellow 70%, brown 90%);
+background-image: -o-linear-gradient(top, blue 0%, red 30%, orange 50%, yellow 70%, brown 90%);
+background-image: linear-gradient(top, blue 0%, red 30%, orange 50%, yellow 70%, brown 90%);
+border: 5px solid black;
+border-radius: 50px;
+-webkit-box-shadow: inset 0 0 0 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
+box-shadow: inset 0 0 0 1px rgba(255, 115, 100, 0.4), 0 1px 3px #333333;
+color: #fff;
+font: bold 20px/1;
+font-size: 2rem;
+font-family: 'Ruge Boogie', cursive;
+padding: 12px 0 14px 0;
+text-align: center;
+text-shadow: 0 -1px 2px rgba(0, 0, 0, 1);
+width: 100px;
+height: 100px;
+margin: 2rem;}
+
+#groovy:hover {
+background-color: yellow;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, brown), color-stop(30%, yellow), color-stop(50%, orange), color-stop(70%, red), color-stop(100%, blue));
+background-image: -webkit-linear-gradient(top, brown 10%, yellow 30%, orange 50%, red 70%, blue 100%);
+background-image: -moz-linear-gradient(top, brown 10%, yellow 30%, orange 50%, red 70%, blue 100%);
+background-image: -ms-linear-gradient(top, brown 10%, yellow 30%, orange 50%, red 70%, blue 100%);
+background-image: -o-linear-gradient(top, brown 10%, yellow 30%, orange 50%, red 70%, blue 100%);
+background-image: linear-gradient(top, brown 10%, yellow 30%, orange 50%, red 70%, blue 100%);
+cursor: pointer; }
+
+/*Gradient created using http://www.colorzilla.com/gradient-editor/*/
+#groovy:active {
+background: #fc2f20; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #fc2f20 0%, #f7ac22 15%, #e7f733 30%, #45dd2e 45%, #33daf7 60%, #6b02f4 75%, #ef11f7 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#fc2f20), color-stop(15%,#f7ac22), color-stop(30%,#e7f733), color-stop(45%,#45dd2e), color-stop(60%,#33daf7), color-stop(75%,#6b02f4), color-stop(100%,#ef11f7)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, #fc2f20 0%,#f7ac22 15%,#e7f733 30%,#45dd2e 45%,#33daf7 60%,#6b02f4 75%,#ef11f7 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, #fc2f20 0%,#f7ac22 15%,#e7f733 30%,#45dd2e 45%,#33daf7 60%,#6b02f4 75%,#ef11f7 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, #fc2f20 0%,#f7ac22 15%,#e7f733 30%,#45dd2e 45%,#33daf7 60%,#6b02f4 75%,#ef11f7 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, #fc2f20 0%,#f7ac22 15%, #e7f733 30%,#45dd2e 45%,#33daf7 60%,#6b02f4 75%,#ef11f7 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc2f20', endColorstr='#ef11f7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+-webkit-box-shadow: inset 0 0 0 1px rgba(255, 115, 100, 0.4);
+box-shadow: inset 0 0 0 1px rgba(255, 115, 100, 0.4);}
